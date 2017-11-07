@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback"
+    tools:context="com.example.bernardlao.favoriteplaces.SetLocationActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Place Information"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/txtPlaceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter place name"
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter address"
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"/>
+    <Spinner
+        android:id="@+id/cmbTypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/black"/>
+    <RatingBar
+        android:id="@+id/rateRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_gravity="center"
+        android:stepSize="0.5" />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:fontFamily="cursive"
+        android:layout_marginTop="30sp"/>
+</LinearLayout>

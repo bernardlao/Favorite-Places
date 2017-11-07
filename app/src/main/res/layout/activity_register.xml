@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainback"
+    tools:context="com.example.bernardlao.favoriteplaces.RegisterActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register an Account"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:layout_marginTop="80sp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/txtRegFullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:hint="Enter your Fullname"
+        android:textAlignment="center"
+        android:layout_margin="5sp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/txtRegUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:hint="Enter your Username"
+        android:textAlignment="center"
+        android:layout_margin="5sp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/txtRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:hint="Enter your Paassword"
+        android:textAlignment="center"
+        android:layout_margin="5sp"
+        android:textColor="@android:color/black"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/txtRegRetype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:hint="Retype your Paassword"
+        android:textAlignment="center"
+        android:layout_margin="5sp"
+        android:textColor="@android:color/black"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btnRegRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Now"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="20sp"
+        android:textColor="@android:color/black"/>
+</LinearLayout>
